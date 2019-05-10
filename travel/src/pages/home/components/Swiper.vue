@@ -18,11 +18,8 @@ export default {
   data () {
     return {
       swiperOption:{
-        pagination: {
-          el: '.swiper-pagination'
-        },
-        loop: true,
-        autoplay: true
+        pagination: '.swiper-pagination',     
+        loop: true
       },
       list:[
         {id:1,src:'https://pic.tujia.com/upload/resourcespic/day_190417/201904171518582360.jpg'},
