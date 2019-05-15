@@ -13,59 +13,14 @@
 <script>
 export default {
   name:'HomeIcon',
+  props: {
+    iconList: Array
+  },
   data () {
     return {
-      iconList: [
-        {
-          id: 1,
-          desc: '景点描述',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png'
-        },
-        {
-          id: 2,
-          desc: '一日游',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png'
-        },
-        {
-          id: 3,
-          desc: '杭州必游',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png'
-        },
-                {
-          id: 4,
-          desc: '踏青赏花',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/bd/9f7b9b2b60c1502.png'
-        },
-        {
-          id: 5,
-          desc: '印象西湖',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/17/99402a22ce4af302.png'
-        },
-        {
-          id: 6,
-          desc: '千岛湖',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/75/eca3ce656c886502.png'
-        },
-                {
-          id: 7,
-          desc: '杭州野生',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png'
-        },
-        {
-          id: 8,
-          desc: '西溪湿地',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/b8/c5dcdb58deec2402.png'
-        },
-        {
-          id: 9,
-          desc: '杭州宋城',
-          imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png'
-        }
-      ],
       swiperOption: {
         loop:true,
-
-        
+        initialSlide :1
      }
    }
  },
